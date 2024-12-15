@@ -3,21 +3,13 @@ import { fontFamily } from "@/styles/font-family";
 import { StyleSheet } from "react-native";
 
 export const styles = StyleSheet.create({
-    logo: {
-        width: 48,
-        height: 48,
-        marginTop: 24,
-        marginBottom: 28
+    container: {
+        gap: 24,
+        flex: 1,
     },
     title: {
-        fontSize: 24,
-        fontFamily: fontFamily.bold,
-        color: colors.gray[600]
-    },
-    subtitle: {
         fontSize: 16,
         fontFamily: fontFamily.regular,
-        color: colors.gray[500],
-        marginTop: 12
+        color: colors.gray[500]
     }
 })
